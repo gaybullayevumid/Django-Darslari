@@ -1,0 +1,50 @@
+{% extends "base.html" %} 
+
+{% load static %}
+
+{% block home %}
+
+<h1>Keto Ice Cream Recipes</h1>
+
+<div class="cards">
+  <div class="card">
+    <img src="{% static 'img/ice-cream.jpg' %}" alt="ice-cream" />
+
+    <h3>Raspberry ice cream</h3>
+
+    <p>
+      Sample text. Click to select the text box. Click again or double click to
+      start editing the text.
+    </p>
+
+    <button>learn more</button>
+  </div>
+
+  <div class="card">
+    <img src="./ice-cream.jpg" alt="ice-cream" />
+
+    <h3>Raspberry ice cream</h3>
+
+    <p>
+      Sample text. Click to select the text box. Click again or double click to
+      start editing the text.
+    </p>
+
+    <button>learn more</button>
+  </div>
+
+  <div class="card">
+    <img src="./ice-cream.jpg" alt="ice-cream" />
+
+    <h3>Raspberry ice cream</h3>
+
+    <p>
+      Sample text. Click to select the text box. Click again or double click to
+      start editing the text.
+    </p>
+
+    <button>learn more</button>
+  </div>
+</div>
+
+{% endblock home %}

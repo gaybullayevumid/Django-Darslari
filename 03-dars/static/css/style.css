@@ -1,0 +1,42 @@
+body{
+    background-color: #F2F2F2;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    /* margin: 100px; */
+    gap: 50px;
+}
+
+.cards .card{
+    width: 360px;
+    height: 542px;
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+}
+
+.cards .card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cards .card h3{
+    color: red;
+}
+
+.cards .card button{
+    border: 2px solid red;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: transparent;
+}
