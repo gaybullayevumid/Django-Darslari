@@ -1,8 +1,24 @@
-<header>
-    <a href="{% url 'home' %}">Bosh Sahifa</a> | <a href="{% url 'about' %}">Bu biz haqimizda</a> | <a href="{% url 'contact' %}">Contact</a>
-</header>
 
-{% block content %}
+{% load static %}
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
 
-{% endblock content %}
+    <header>
+        <a href="{% url 'home' %}">Bosh Sahifa</a> |
+        <a href="{% url 'about' %}">Bu biz haqimizda</a> |
+        <a href="{% url 'contact' %}">Contact</a>
+    </header>
+  
+    {% block content %} {% endblock content %}
+
+</body>
+</html>
