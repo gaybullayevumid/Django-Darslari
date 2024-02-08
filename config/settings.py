@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     # 'hello_world',
     # 'pages',
     # 'static_files',
-    'navbar'
+    'navbar',
+
+    # 'fontawesome_5',
 ]
 
 MIDDLEWARE = [
