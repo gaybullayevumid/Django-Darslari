@@ -22,5 +22,6 @@ urlpatterns = [
     # path('', include('hello_world.urls')),
     # path('', include('pages.urls')),
     # path('', include('static_files.urls')),
-    path('', include('navbar.urls')),
+    # path('', include('navbar.urls')),
+    path('', include('malumotlar.urls')),
 ]
